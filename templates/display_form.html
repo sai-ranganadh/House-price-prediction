@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Price prediction</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    </head>
+    <body>
+        <h1>Predict house price in California</h1>
+        <img src='../static/images/house.jpg' width="650px" height="350px"><br>
+        <form method="POST">
+            {{form.hidden_tag()}}
+            {{form.bedrooms.label}} {{form.bedrooms}}<br><br>
+            {{form.totalrooms.label}} {{form.totalrooms}}<br><br>
+            {{form.age.label}} {{form.age}}<br><br>
+            {{form.ocean_proximity.label}} {{form.ocean_proximity}}<br><br>
+            <center>{{form.submit(class="custom-button")}}</center>
+        </form>        
+        {% if price %} 
+        <h2>Price of the house is : {{price}} $</h2>
+        {% endif %}
+    </body>
+</html>

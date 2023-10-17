@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: seashell;
+    height: 90vh; /* Makes sure the content takes the full height of the viewport */
+}
+
+form{
+    color:darkblue;
+    font-weight: bold;
+}
+
+.custom-button{
+    color:saddlebrown;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
