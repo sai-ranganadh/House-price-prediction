@@ -1,7 +1,7 @@
 # California House Price Prediction
 
 ## Overview
----
+
 This project implements a machine learning model to predict house prices in California based on various features. 
 ## Dataset
 ---
