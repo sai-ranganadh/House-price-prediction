@@ -43,6 +43,9 @@ def predict(bedrooms,totalrooms,age,ocean_proximity):
     predicted_price = model.predict([features])
     return predicted_price
 
+def new_house():
+    return "New House"
+
 if __name__ == "__main__":
     app.run()
 
